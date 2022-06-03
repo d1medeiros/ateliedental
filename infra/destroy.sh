@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUCKET_NAME="ateliedental-test"
+BUCKET_NAME="ateliedentalmm"
 
 aws s3 rm s3://$BUCKET_NAME --recursive
 

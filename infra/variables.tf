@@ -2,13 +2,13 @@
 
 variable "region" {
   description = "AWS region"
-  default     = "us-east-1"
+  default     = "sa-east-1"
   type        = string
 }
 
 variable "availability_zone" {
-  type = string
-  default = "us-east-1a"
+  type    = string
+  default = "sa-east-1a"
 }
 
 variable "tag" {

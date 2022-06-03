@@ -73,10 +73,9 @@ export default function Principal(props) {
             >
                 {props.company}
             </Typography>
-            <Typography variant="h5" align="center" color="text.secondary" component="p">
-                Quickly build an effective pricing table for your potential customers with
-                this layout. It&apos;s built with default MUI components with little
-                customization.
+            <Typography variant="h5" align="center" color="text.secondary"
+                        component="p">
+                Marco Medeiros
             </Typography>
         </Container>
     )
