@@ -1,10 +1,5 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 import GlobalStyles from '@mui/material/GlobalStyles';
 import Footer from "./Footer";
 import Principal from "./Principal";
@@ -126,15 +121,6 @@ const tiers = [
     },
     {
         title: 'Zirconia fresada por elemento maquiada',
-        price: '500',
-        description: [
-            ' ',
-        ],
-        buttonText: 'solicitar',
-        buttonVariant: 'outlined',
-    },
-    {
-        title: 'Zirconia fresada por elemento estratificada',
         price: '560',
         description: [
             ' ',
@@ -143,8 +129,17 @@ const tiers = [
         buttonVariant: 'outlined',
     },
     {
+        title: 'Zirconia fresada por elemento estratificada',
+        price: '620',
+        description: [
+            ' ',
+        ],
+        buttonText: 'solicitar',
+        buttonVariant: 'outlined',
+    },
+    {
         title: 'Zirconia à partir de 3 elementos',
-        price: '595',
+        price: '635',
         description: [
             ' ',
         ],
@@ -162,7 +157,7 @@ const tiers = [
     },
     {
         title: 'Gengiva rosa COE-SOFT por elemento',
-        price: '45',
+        price: '68',
         description: [
             ' ',
         ],
