@@ -2,7 +2,6 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import * as React from 'react';
 import Box from "@mui/material/Box";
-import imgPrincipal from "./img/d_superior.png"
 import {Paper} from "@mui/material";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
@@ -62,7 +61,7 @@ function MainFeaturedPost(props) {
 export default function Principal(props) {
     return (
         <Container disableGutters maxWidth="md" component="main" sx={{ pt: 8, pb: 6 }}>
-           <MainFeaturedPost image={imgPrincipal} imageText='a'  />
+           {/*<MainFeaturedPost image={imgPrincipal} imageText='a'  />*/}
 
             <Typography
                 component="h1"

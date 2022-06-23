@@ -20,5 +20,5 @@ variable "bucket_name" {
 }
 
 variable "domain" {
-  default = "marcoateliedental.com"
+  default = "ateliedentalmm.com.br"
 }

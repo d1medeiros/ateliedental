@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Principal from "./Principal";
 import Content from "./Content";
 import Navbar from "./NavBar";
+import Gallery from "./Gallery";
+import {Divider} from "@mui/material";
 
 
 const tiers = [
@@ -199,7 +201,9 @@ function PricingContent() {
                 styles={{ul: {margin: 0, padding: 0, listStyle: 'none'}}}/>
             <CssBaseline/>
             <Navbar company={company}/>
-            <Principal company={company} />
+            <Principal company={company}/>
+            <Gallery/>
+            <Divider variant="middle"/>
             <Content tiers={tiers}/>
             <Footer footers={footers}/>
         </React.Fragment>

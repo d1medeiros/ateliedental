@@ -13,7 +13,7 @@ import Container from "@mui/material/Container";
 export default function Content(props) {
     const {tiers} = props;
     return (
-        <Container maxWidth="md" component="main">
+        <Container maxWidth="md" component="main" sx={{pt: 6}}>
             <Grid container spacing={5} alignItems="flex-end">
                 {tiers.map((tier) => (
                     <Grid
