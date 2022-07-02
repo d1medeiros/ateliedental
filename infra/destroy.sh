@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUCKET_NAME="ateliedentalmm"
+BUCKET_NAME="ateliedentalmm.com"
 
 aws s3 rm s3://$BUCKET_NAME --recursive
 

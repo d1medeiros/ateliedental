@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUCKET_NAME="ateliedentalmm"
+BUCKET_NAME="ateliedentalmm.com"
 export TF_VAR_bucket_name="${BUCKET_NAME}"
 terraform apply -auto-approve
 
